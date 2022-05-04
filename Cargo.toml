@@ -1,6 +1,6 @@
 [package]
 name = "generational_array"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A small package to handle generational arrays and prevent the ABA problem while reusing unused space"
 readme = "README.md"
