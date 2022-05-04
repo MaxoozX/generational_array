@@ -1,0 +1,12 @@
+[package]
+name = "generational_array"
+version = "0.1.0"
+edition = "2022"
+description = "A small package to handle generational arrays and prevent the ABA problem while reusing unused space"
+readme = "README.md"
+license = "MIT"
+keywords = ["data-structure", "generational-array", "gamedev", "ecs", "array"]
+categories = ["data-structures", "game-development"]
+repository = "https://github.com/MaxoozX/generational_array"
+
+[dependencies]
