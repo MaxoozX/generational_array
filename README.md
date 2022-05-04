@@ -16,12 +16,12 @@ This module exposes 4 different types
 
 | Name | Description |
 | :----: | :----: |
-| `GenerationalIndex` | Type representing an index in a generational array. It's made of an index (`usize`) and a generation (`usize`) <br> [See methods](#generational-array-type) |
+| `GenerationalIndex` | Type representing an index in a generational array. It's made of an index (`usize`) and a generation (`usize`) <br> [See methods](#methods-of-generationalarray) |
 | `GenerationalArray` | Generic type representing the generational array |
-| `GenerationalArrayResult` | Enum used when getting a reference to an item from the generational array <br> [See variants](#generational-array-result-enum) |
-| `GenerationalArrayResultMut` | Enum used when getting a mutable reference to an item from the generational array <br> [See variants](#generational-array-result-enum) |
+| `GenerationalArrayResult` | Enum used when getting a reference to an item from the generational array <br> [See variants](#generationalarrayresult) |
+| `GenerationalArrayResultMut` | Enum used when getting a mutable reference to an item from the generational array <br> [See variants](#generationalarrayresult) |
 
-### Methods of GenerationalArray {#generational-array-type}
+### Methods of GenerationalArray
 
 | Method | Use |
 | :----: | :----: |
@@ -34,7 +34,7 @@ This module exposes 4 different types
 | `size` | Returns the size (`usize`) of the array |
 | `used_size` | Returns the actual number (`usize`) of not empty cells in the array |
 
-### GenerationalArrayResult / GenerationalArrayResultMut {#generational-array-result-enum}
+### GenerationalArrayResult
 
 | Variant | Meaning |
 | :----: | :----: |
