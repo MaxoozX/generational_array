@@ -3,8 +3,8 @@ use std::collections::VecDeque;
 
 #[derive(Copy, Clone)] // FIXME: Do I really want it to be clonable and copiable
 pub struct GenerationalIndex {
-    index: usize,
-    generation: usize,
+    pub index: usize,
+    pub generation: usize,
 }
 
 impl fmt::Display for GenerationalIndex {
