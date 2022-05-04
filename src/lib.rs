@@ -78,7 +78,7 @@ impl<ValueType> GenerationalArray<ValueType> {
 
     }
 
-    pub fn remove(&mut self, index: GenerationalIndex) -> Result<_, &'static str> {
+    pub fn remove(&mut self, index: GenerationalIndex) -> Result<(), &'static str> {
 
         // Validate the generation
         if index.generation != self.generations[index.index] {
